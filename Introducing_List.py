@@ -82,10 +82,36 @@ dinner_list.sort(reverse = True)
 print('\nHerer is the orginal list:')
 print(dinner_list)
 print('\n Here is the sorted list:')
-print(sorted(dinner_list))
-dinner_list.reverse()
+short_list = sorted(dinner_list)
+print(short_list)
+short_list.reverse()
 print(f'the reverse is not working {dinner_list} ')
 
 invited_person = len(dinner_list)
 print(f'the invited person is {invited_person}')
+
+# Task 3-8 
+wanna_visit = ["Kashmir","Makka","Madinatul Munabra","Finland"]
+print('The orginal lis :')
+print(wanna_visit)
+
+sort_visit = sorted(wanna_visit)
+print(f'shorted list {sort_visit}')
+sort_visit.reverse()
+print(f'the reverse is not working {sort_visit} ')
+print(f'orginal list: {wanna_visit}')
+wanna_visit.sort()
+print(wanna_visit)
+wanna_visit.reverse()
+print(wanna_visit)
+wanna_visit.sort()
+print(wanna_visit)
+visted_place = len(wanna_visit)
+print(f'total place {visted_place}')
+
+# Avoiding index error when working with lists 
+
+motorcycles =['honda','yamaha','sukuki']
+print(motorcycles[2])
+print(motorcycles[-1])
 
