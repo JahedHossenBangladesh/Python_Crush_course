@@ -115,3 +115,5 @@ motorcycles =['honda','yamaha','sukuki']
 print(motorcycles[2])
 print(motorcycles[-1])
 
+for motorcycles in motorcycles:
+    print(motorcycles)
