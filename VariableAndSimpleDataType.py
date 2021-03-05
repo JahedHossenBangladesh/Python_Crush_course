@@ -35,4 +35,33 @@ print(favorite_language)
 bad_language = ' Ruby '
 bad_language = bad_language.lstrip()
 print(bad_language)
+# Syntax Error use " ' ' "
+message ="use single quation's inside of the double quation's then it will not be error"
+print(message)
+# Task 
+message = ("Hello Eric,would  you like to learn some Python today?")
+print(message)
 
+name = "jahed"
+print(name.title())
+print(name.upper())
+print(name.lower())
+
+the_Quote = '   Albert Einstein once said, "A person who never made a    \nmistake never tried anything new"'
+print(the_Quote)
+
+famouse_person = "Albert Einstein"
+
+message = f"Hello {famouse_person}, would you like to learn some Python today ?"
+
+print(message)
+message = f"Hello {famouse_person.title()}, would you like to learn some Python today ?"
+
+print(message)
+
+message = f"Hello {famouse_person.upper()}, would you like to learn some Python today ?"
+
+print(message)
+
+the_Quote = f'   {famouse_person} once said, "A person who never made a    \nmistake never tried anything new"'
+print(the_Quote)
