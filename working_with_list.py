@@ -96,3 +96,25 @@ for pizza in pizza:
   
 for friend_pizza in friend_pizza:
     print(f'my friend pizza is : {friend_pizza}')
+
+# Tuple
+
+dimension = (100,200)
+print(dimension[0])
+print(dimension[1])
+
+for dimension in dimension:
+    print(f'this is orginal {dimension}')
+
+dimension = (300,400)
+for dimension in dimension:
+    print(f'this is new {dimension}')
+
+# Task
+basic_food = ('rice','potato mixture','Dal','Hilsha Fish','Chicken')
+for basic_food in basic_food:
+    print(basic_food)
+
+basic_food = ('rice','potato mixture','dal','loitta fish','shutki')
+for basic_food in basic_food:
+    print(basic_food)
