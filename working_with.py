@@ -19,3 +19,23 @@ animal = ['Monky','elephan','dog','Tiger']
 for animal in animal:
     print(f'The animal name is {animal.upper()}')
     print(f'{animal.upper()} is a grate pet')
+
+for value in range(1,5):
+    print(value)
+
+number = list(range(2,10))
+print(number)
+
+even_number =list(range(2,10,2))
+print(even_number)
+
+squares =[]
+for value in range(1,11):
+  squares.append(value**2)
+print(squares)
+
+min_digit = min(squares)
+print(min_digit)
+
+max_digit = max(squares)
+print(max_digit)
