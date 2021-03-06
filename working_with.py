@@ -39,3 +39,19 @@ print(min_digit)
 
 max_digit = max(squares)
 print(max_digit)
+print(sum(squares))
+
+squares = [value**2 for value in range(1,11)]
+print(squares)
+
+list_data = []
+for value in range(1,20):
+    print(value)
+# for vlaue in range(1,10000):
+#     print(vlaue)
+for value in range(3,30):
+    print(value)
+
+for value in range(1,10):
+    list_data.append(value**3)
+    print(list_data)
