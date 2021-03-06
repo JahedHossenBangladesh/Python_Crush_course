@@ -55,3 +55,9 @@ for value in range(3,30):
 for value in range(1,10):
     list_data.append(value**3)
     print(list_data)
+
+print(list_data[0:3])
+print(list_data[1:3])
+print(list_data[:4])
+print(list_data[2:])
+print(list_data[-3:])
