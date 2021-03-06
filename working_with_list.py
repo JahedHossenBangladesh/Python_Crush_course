@@ -131,7 +131,7 @@ for dimension in dimension:
 
 # Task
 basic_food = ('rice','potato mixture','Dal','Hilsha Fish','Chicken')
-for basic_food in basic_food:
+for basic_food in basic_food :
     print(basic_food)
 
 basic_food = ('rice','potato mixture','dal','loitta fish','shutki')
