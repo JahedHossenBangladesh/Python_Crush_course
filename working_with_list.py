@@ -61,3 +61,38 @@ print(list_data[1:3])
 print(list_data[:4])
 print(list_data[2:])
 print(list_data[-3:])
+
+player = ['i','you','they','ours']
+for player in player[:3]:
+    print(player.title())
+
+my_foods =['pizza','falafel','carrot cake']
+friend_foods = my_foods[:]
+print(my_foods)
+print(friend_foods)
+
+my_foods.append('cannoli')
+friend_foods.append('ice cream')
+
+print(my_foods)
+print(friend_foods)
+
+# Task 
+message =["I","love",'you','so','much']
+print(message[:3])
+print(message[3:])
+print(message[-3:])
+
+pizza= ['a','b','c','d']
+pizza.append('z')
+
+print(pizza)
+
+friend_pizza = pizza[:]
+print(friend_pizza)
+
+for pizza in pizza:
+    print(f'my favourite pizza is: {pizza}')
+  
+for friend_pizza in friend_pizza:
+    print(f'my friend pizza is : {friend_pizza}')
